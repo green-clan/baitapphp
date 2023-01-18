@@ -1,0 +1,378 @@
+.background {
+    background: #EEFFFF;
+}
+.ul1{
+    color: red;
+}
+.div1 {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+.div2 {
+    background-color: red;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#bai18 {
+    width: 135px;
+    height: 135px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    }
+#bai3 {
+    color: #CC6768;
+}
+.abt4{
+    color: red;
+    display:inline;
+}
+#td1{
+    color: blue;
+    font-size: large;
+    width: 150px;
+    
+}
+#th1{
+    width: 150px;
+}
+.bt62 {
+    padding-top: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+    width: 600px;
+    border-bottom: outset;
+}
+.bt63 {
+    padding-top: 30px;
+    text-align: center;
+    width: 600px;
+    
+}
+.bt64 {
+    padding-top: 20px;
+}
+.bt7 {
+    text-align: center;
+    border-bottom:2px outset;
+    
+}
+.bt72 {
+    border-bottom: 2px outset;
+    padding-bottom: 15px;
+}
+.bt73 {
+    border-bottom: 2px outset;
+    padding-bottom: 45px;
+}
+.color{
+    color: #88117B;
+}
+.ul8 {
+    color: #881178;
+}
+.span8 {
+    color: blue;
+}
+.bg8{
+    background-color: #D8DA3D;
+    padding-top: 10px;
+    width: 600px;
+    height: 350px;
+}
+.div92 {
+    background-color: #CCCCFF;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 600px;
+}  
+.div9 {
+    border: dashed;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.div93 {
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 5px
+}
+.span9 {
+    padding-left: 25px;
+}
+.brown9{
+    color: #570000;
+}
+.blue9{
+    color: blue;
+}
+.bt11 {
+    background-color: #CCCCCC;
+    text-align: center;
+}
+.bt112 {
+    background-color: greenyellow;
+}
+.span12{
+    color: #3C88D2;
+}
+.span121{
+    color: #094388;
+}
+.bt13{
+    background-color: #A9D7D1;  
+    padding-bottom: 5px; 
+    width: 681.28px;
+    height: 717.71px; 
+}
+.bt132{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    text-align: -webkit-center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.td13{
+    vertical-align: top;
+    text-align: right;
+}
+.h113 {
+    text-align: -webkit-center;
+    padding-top: 15px;
+}
+.span13 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.but13 {
+    background-color: #59ace0;
+    border: none;
+    color: white;
+    width: 55px;
+    height: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ip14{
+    background-color: #FFFFA0;
+    border: inset;
+}
+.tb14 {
+    margin-left: 30px;
+}
+.fs14{
+    width: 485px;
+    height: 158.59px;
+}
+.fs142{
+    width: 485px;
+    height: 97px;
+}
+.ip142{
+    width: 236px;
+    height: 45px;
+    display: block;
+    margin-bottom: 5px;
+}
+.bt14{
+    background: linear-gradient(1deg, #adadada3, transparent);
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.bt14:hover{
+    border: 3px outset;
+    border-color:rgb(35 157 217 / 78%)
+}
+.bt{
+    background: linear-gradient(1deg, #adadada3, transparent);
+}
+.bt15{
+    background: linear-gradient(84deg, #440c00, transparent 900%);
+    align-items: center;
+    flex-direction: column;
+    height: 480px;
+    width: 412px;
+    padding: 74px;
+    
+}
+.sl4{
+    appearance: none;
+    width: 60px;
+    outline: none;
+  
+}
+.bt4::after{
+    content: '\25BC';
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    pointer-events: none;
+    font-size: 8px;
+}
+.bt4{
+    position: relative;
+    display: inline;
+}
+.but6{
+    background: linear-gradient(1deg, #cecdcda3, transparent);
+    border: 1px solid black;
+}
+.div153{
+    position: relative;
+    display: inline;
+    padding-left: 25px;
+    
+}
+.div153::after{
+    content: '\2BC7\2BC8';
+    position: absolute;
+    top: -3px;
+    right: 2px;
+    pointer-events: none;
+    font-size: 15px;
+    transform:rotate(90deg) ;
+}
+.sl15{
+    appearance: none;
+    outline: none;
+    width: 265px;
+    height: 30px;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.ip15 {
+    width: 170.4px;
+    height: 22px;
+    border: inset;
+}
+.but15{
+    border-radius: 3px;
+    background-color: #9F283D;
+    border: none;
+    width: 140px;
+    height: 40px;
+}
+.span15{
+    color: white;
+}
+.div152 {
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.div15 {
+    background-color: #1C050C;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bt153 {
+    margin: 30px 30px;
+    width: 80%;
+    height: 90%;
+}
+.div154 {
+    padding-bottom: 13px;
+}
+.div155 {
+    text-align: center;
+    padding-top: 50px;
+}
+.bt16 {
+    position: fixed;
+    background: red;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    height: 35px;
+}
+.spanb16 {
+    color: white;
+    padding-top: 10px;
+}
+.but17{
+    background-color:#428BCA;
+    border: none;
+    width: 208px;
+    height: 51px;
+    border-radius: 12px;
+}
+.span17 {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.inp19{
+    border: inset;
+}
+.slb19 {
+    appearance: none;
+    outline: none;
+    width: 86px;
+    background: linear-gradient(1deg, #c1c1c1, transparent);
+}
+
+.divb19 {
+    position: relative;
+    display: inline;
+}
+.divb19::after{
+    content: '\25BC';
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    pointer-events: none;
+    font-size: 8px;
+}
+.slb20 {
+    appearance: none;
+    outline: none;
+    width: 123px;
+    padding-left: 4px;
+}
+
+.divb20 {
+    position: relative;
+    display: inline;
+}
+.divb20::after{
+    content: '\25BC';
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    pointer-events: none;
+    font-size: 9px;
+}
+.bt20 {
+    width: 627px;
+}
+.spanb20 {
+    font-family: sans-serif;
+    font-size: 27px;
+}
+.divb201 {
+    background-color: #c0c0c0;
+    width: 263px;
+    padding-left: 7px;
+    border: outset;
+    margin-bottom: 9px;
+}
+.divb202 {
+    border-bottom: 2px outset;
+}
