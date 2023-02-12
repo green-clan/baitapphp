@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+    <script src="js/Bai_tap_ve_nha_JS_Event.js" defer></script>
+    <link rel="stylesheet" href="css/Bai_tap_ve_nha_JS_Event.css" defer>
+    <title>Bai_tap_ve_nha_JS_Event</title>
+</head>
+<body>
+    <form id="form">
+        <h1 id="h1-test">Contact Manager</h1>
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text"  id="First_Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text"  id="Last_Name"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="" id="Email"></td>
+            </tr>
+            <tr>
+                <td>Telephone</td>
+                <td><input type="text" name="" id="Telephone"></td>
+            </tr>
+        </table>
+        <!-- <input type="submit"  value="Add Contact">  -->
+        <button type="submit" id="submit">Submit</button>
+            
+        <h3 style="color: red;" id="error"></h3>
+        <h3 style="color: green;" id="result"></h3>
+    </form>
+    bai 2
+    <form id="form_2">
+        <h1>Spring MVC Form Demo - Registration</h1>
+        <table >
+            <tr>
+                <td>User Name:</td>
+                <td><input type="text"  id="UserName"></td>
+            </tr>
+            <tr>
+                <td>PassWord:</td>
+                <td><input type="password"  id="PassWord"></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email"  id="Emailb2"></td>
+            </tr>
+            <tr>
+                <td>BirthDay (mm/dd/yyyy)</td>
+                <td><input type="text"  id="BirthDay"></td>
+            </tr>
+            <tr>
+                <td>Profession:</td>
+                <td>
+                    <select  id="Profession">
+                        <option value="dev">Developer</option>
+                        <option value="law">Lawyer</option>
+                        <option value="dir">director</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <button type="submit" id="submit_b2">Register</button>
+        <h3 style="color: red;" id="errorb2"></h3>
+        <h3 style="color: green;" id="resultb2"></h3>
+    </form>
+    b3
+    <form id="b3">
+        <span>Full Name :</span>
+        <br>
+        <input type="text"  id="FullNameb3">
+        <br>
+        <span>Email id :</span>
+        <br>
+        <input type="email"  id="Emailb3">
+        <br>
+        <span>UserName :</span>
+        <br>
+        <input type="text"  id="UserNameb3">
+        <br>
+        <span>PassWord :</span>
+        <br>
+        <input type="password"  id="PassWordb3">
+        <br>
+        <span>Gender:</span>
+        <input type="radio" name="sex" value="Male" >Male
+        <input type="radio" name="sex" value="Female">Female
+        <br>
+        <button type="submit">Save</button>
+        
+        <h3 style="color: red;" id="errorb3"></h3>
+        <h3 style="color: green;" id="resultb3"></h3>
+    </form>
+    b4 
+    <div class="b4">
+        <div class="header">
+            <h3 style="color: red;" id="errorb4"></h3>
+        </div>
+    <form id="b4">
+        <fieldset>
+            <legend><h3>Accsess Credentials</h3></legend>
+            <table>
+                <tr>
+                    <td>UserName</td>
+                    <td><input type="text" name="" id="UserNameb4">*</td>
+                </tr>
+                <tr>
+                    <td>PassWord</td>
+                    <td><input type="text" name="" id="PassWordb4">*</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><p>Minimun four and maximum eight characters</p></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="" id="Emailb4">*</td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><h3> Other Information</h3></legend>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" name="" id="Nameb4">*
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="text" name="" id="Phone"></td>
+                </tr>
+            </table>
+            <button type="submit"> Submit Form</button>
+            <br>
+            *= Required Field
+        </fieldset>
+        <h3 style="color: green;" id="resultb4"></h3>
+    </form>
+    </div>
+    b5
+    <h1 style="color: #002E77;">Đăng ký thành viên</h1>
+    <form action="" id="b5" >
+        <table>
+            <tr>
+                <td>ten dang nhap *</td>
+                <td><input type="text" name="" id="UserNameb5"></td>
+            </tr>
+            <tr>
+                <td>password *</td>
+                <td><input type="password" name="" id="PassWordb5"></td>
+            </tr>
+            <tr>
+                <td> nhap lai pass PassWord *</td>
+                <td><input type="password" name="" id="RePassWordb5"></td>
+            </tr>
+            <tr>
+                <td>ho cua ban *</td>
+                <td><input type="text" name="" id="familyName"></td>
+            </tr>
+            <tr>
+                <td>ten cua ban *</td>
+                <td><input type="text" name="" id="Nameb5"></td>
+            </tr>
+            <tr>
+                <td>email*</td>
+                <td><input type="text" name="" id="Emailb5"></td>
+            </tr>
+            <tr>
+                <td>so dien thoai *</td>
+                <td><input type="text" name="" id="Phoneb5"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Đăng ký</button>
+                </td>
+            </tr>
+        </table>
+        <h3 style="color: red;" id="errorb5"></h3>
+        <h3 style="color: green;" id="resultb5"></h3>
+    </form>
+    b6
+    <div>
+    <h1 style="color: #C1474A;">Add a book</h1>
+    <form class="main">
+        <div>
+            <h3 style="color: blue">Data</h3>
+            <table>
+                <tr>
+                    <td><h4>Title</h4></td>
+                    <td><input type="text" name="" id="Title" ></td>
+                </tr>
+                <tr>
+                    <td><h4>Description</h4></td>
+                    <td><textarea name="" id="des" cols="30" rows="10" style="resize: none;"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Save book & authors</button></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <div class="sidebar"><h3 style="color:blue ;display: inline;">Authors</h3><img src="img/doc1.png" alt="">
+            </div>
+            <hr>
+            <h4 style="display: inline;">Author name:</h4> <img src="img/doc 2.png" alt="">
+            <br>
+            <input type="text" name="" id="nameb6">
+            <h4>Author Remarks</h4>
+            <textarea name="" id="remarks" cols="20" rows="3" style="resize: none;"></textarea>
+            <hr>
+            <h4 style="display: inline;">Author name:</h4> <img src="img/doc 2.png" alt="">
+            <br>
+            <input type="text" name="" id="name_2">
+            <h4>Author Remarks</h4>
+            <textarea name="" id="remarks_2" cols="20" rows="3" style="resize: none;"></textarea>
+        </div>
+    </form>
+    <h3 style="color: green;" id="resultb6"></h3>
+    </div>
+</body>
+</html>

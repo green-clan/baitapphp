@@ -1,0 +1,141 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+#search {
+    padding-right: 1.5em;
+    background: url(../img/kinhlup.png) no-repeat right center;
+    border: 1px solid #00000017;
+    height: 27px;
+  }
+  /* input[type="search"]::-ms-clear { 
+    display: none;
+  } */
+  /* input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  } */
+.navbar li {
+    display: inline-block;
+}
+.blue {
+  background: #2984C9;
+  height: 10px;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.header-main>div:last-child {
+  padding-top: 15px;
+}
+.navbar {
+ 
+  margin-left: 100px;
+  position: relative;
+}
+.navbar ul {
+  right:10px
+}
+.navbar ul {
+  position: absolute;
+  right: 0px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.navbar a:hover{
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.title {
+  background-color: #EFEFEF;
+  height: 180px;
+  padding-top: 1px;
+}
+.title div {
+  background-color: #3E94CE;
+  height: 118px;
+}
+.title h1 {
+  color: white;
+  margin-top: 34px;
+  padding-left: 215px;
+  font-size: 40px;
+  font-family: Arial;
+  padding-top: 34px;
+}
+.main {
+  border-bottom: 2px solid #EEEEEE;
+  margin-left: 80px;
+}
+.main-containner>div:first-child {
+  padding-left: 0px;
+}
+b, strong {
+  font-weight: bolder;
+  font-size: 13px;
+}
+.main-content-1 {
+  margin: 45px 0px;
+}
+.button {
+  color: white;
+  background-color: #288ACB;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 95px;
+  padding-top: 0px;
+}
+.main-content-1 p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+.content-sidebar>div:first-child {
+  font-size: 11px;
+  display: inline-block;
+  background-color: #DADADA;
+  color: white;
+}
+.content-sidebar hr {
+  color: #dadada;
+  margin-top: -2px;
+}
+.content-sidebar p {
+  font-size: 11px;
+  font-family: Arial;
+}
+.sidebar-2 img {
+  float: left;
+}
+.sidebar-2 p,b,a{
+  font-size: 11px;
+}
+.sidebar-2 hr {
+  color: #DADADA;
+}
+.sidebar-2 p {
+  display: inline;
+}
+.footer {
+  background-color: #3E94CE;
+  height: 90px;
+  color: white;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+
+}
+.p-footer {
+  padding-top: 15px;
+}
+.footer p{
+  margin-bottom: 0px;
+}

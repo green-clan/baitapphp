@@ -1,0 +1,49 @@
+#form_2 td {
+    padding-right: 30px;
+}
+button#submit_b2 {
+    margin-left: 155px;
+}
+span {
+    color: #83BEDA;
+    font-weight: bold;
+}
+#b3 input {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    outline-color: #83BED7;
+}
+#b3 button {
+    background-color: #5CB85C;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.b4 {
+    width: 400px;
+}
+.b4 input {
+    width: 200px;
+}
+.b4 p {
+    font-style: italic;
+    font-size: 12px;
+}
+.b4 button {
+    margin: 10px 0px 10px 40px;
+}
+.header {
+    background-color: #ffff0040;
+    height: 75px;
+    border: 1px solid yellow;
+}
+#b5 button {
+    background-color: #E5F9F1;
+    height: 28px;
+}
+.main {
+    display: flex;
+}
+.main>div:first-child {
+    padding-right: 65px;
+}

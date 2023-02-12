@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Inconsolata-Variable;
+    src: url(../font/Inconsolata-Variable.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Italic-Variable;
+    src: url(../font/PlayfairDisplay-Italic-Variable.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Variable;
+    src: url(../font/PlayfairDisplay-Variable.ttf);
+}
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url(../font/Ubuntu-Light.ttf);
+}
+.container {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 1063px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1063px;
+}
+.header>div:first-child {
+    font-family: Inconsolata-Variable;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.header a {
+    font-family: PlayfairDisplay-Variable;
+    text-decoration: none;
+    color: #626262;
+    margin-left: 100px;
+}
+h3 {
+    font-family: Ubuntu-Light;
+    color: #B2AB9C;
+    font-size: 12px;
+}
+h1 {
+    font-family: 'PlayfairDisplay-Variable';
+    color: #626262;
+}
+.main {
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-right: 100px;
+    padding-bottom: 2000px;
+}
+p {
+    color: #7A7A7A;
+}
+.content_1 {
+    display: flex;
+    justify-content: space-between;
+}
+.content_1> div {
+    width: calc(50% - 26px);
+}
+h1 {
+    font-size: 30px;
+}
+.main>h3 {
+    margin-top: 45px;
+    margin-bottom: 90px;
+}
+.content_2 {
+    background-color: #EFEFEF;
+    height: 200px;
+    text-align: center;
+    padding-top: 45px;
+    width: 1063px;
+    margin-left: -100px;
+    width: 1123px;
+}
+#email {
+    border: none;
+    border-bottom: 2px solid;
+    height: 20px;
+    background-color: #EFEFEF;
+    width: 280px;
+    outline: none;
+}
+.content_2 > h2 {
+    font-family: 'PlayfairDisplay-Variable';
+    font-size: 25px;
+    margin-bottom: 75px;
+}
+.send {
+    position: relative;
+    pointer-events: none;
+    left: -35px;
+}
+.but {
+    text-align: center;
+}
+button {
+    margin-top: 150px;
+    width: 166px;
+    font-family: 'PlayfairDisplay-Variable';
+    height: 62px;
+    font-size: 25px;
+    color: #707070;
+    background: white;
+    border: 1px solid;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1063px;
+    background-color: #EFEFEF;
+    height: 90px;
+    align-items: center;
+    padding: 0px 30px;
+    margin-left: -30px;
+}
+
