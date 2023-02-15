@@ -97,10 +97,12 @@ hr {
     color: white;
 }
 .bg-2>div:last-child {
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
 }
 .bg-3>div:last-child {
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
 }
 .bg-3{
     background-color: #E6F0F8;
