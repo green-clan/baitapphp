@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Bai_tap_ve_nha_jQuery.css">
+    <script src="js/Bai_tap_ve_nha_jQuery.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Bai_tap_ve_nha_jQuery</title>
+</head>
+<body>
+    <form id="rectangle" class="rectangle">
+        <div class="title text-center">
+            <h2>Chu vi Và diện tích hình chữ nhật</h2>
+        </div>
+        <div class="main">
+            <label for="length-rectangle">Nhập vào chiều dài (đơn vị : met)</label>
+            <br>
+            <input type="text" id="length-rectangle" class="form-control" name="length_rectangle">
+            <br>
+            <label for="width-rectangle">Nhập vào chiều rộng (đơn vị : met)</label>
+            <br>
+            <input type="text" id="width-rectangle" class="form-control" name="width_rectangle">
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success" id="btn-rectangle">Tính chu vi và diện tích</button>
+
+            <h3 style="color: red;" id="error"></h3>
+            <h3 style="color: blue;" id="result"></h3>
+        </div>
+    </form>
+    <form id="square" class="rectangle">
+        <div class="title text-center">
+            <h2>Chu vi Và diện tích hình vuông</h2>
+        </div>
+        <div class="main">
+            <label for="side-square">Nhập vào chiều dài (đơn vị : met)</label>
+            <br>
+            <input type="text" id="side-square" class="form-control" name="side_square">
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success" id="btn-square">Tính chu vi và diện tích</button>
+
+            <h3 style="color: red;" id="error-square"></h3>
+            <h3 style="color: blue;" id="result-square"></h3>
+        </div>
+    </form>
+    <form id="circle" class="rectangle">
+        <div class="title text-center">
+            <h2>Chu vi Và diện tích hình tròn</h2>
+        </div>
+        <div class="main">
+            <label for="radius">Nhập vào bán kính (đơn vị : met)</label>
+            <br>
+            <input type="text" id="radius" class="form-control" name="radius">
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success" id="btn-circle">Tính chu vi và diện tích</button>
+
+            <h3 style="color: red;" id="error-circle"></h3>
+            <h3 style="color: blue;" id="result-circle"></h3>
+        </div>
+    </form>
+    <form id="Prime" class="rectangle">
+        <div class="title text-center">
+            <h2>số nguyên tố</h2>
+        </div>
+        <div class="main">
+            <label for="number">Nhập số a</label>
+            <br>
+            <input type="text" id="number" class="form-control" name="Prime">
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success" id="btn-Prime">Kết quả</button>
+
+            <h3 style="color: red;" id="error-Prime"></h3>
+            <h3 style="color: blue;" id="result-Prime"></h3>
+        </div>
+    </form>
+    <form id="check" class="rectangle">
+        <div class="title text-center">
+            <h2>số chẵn lẻ</h2>
+        </div>
+        <div class="main">
+            <label for="number-check">Nhập số a</label>
+            <br>
+            <input type="text" id="number-check" class="form-control" name="check">
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success" id="btn-check">Kết quả</button>
+
+            <!-- <h3 style="color: red;" id="error-Prime"></h3> -->
+            <h3 style="color: blue;" id="result-check"></h3>
+        </div>
+    </form>
+    <br><br><br>
+    <div class="background">
+        <div class="container mx-auto width">
+            <div class="row header ml-2 ">
+                <h3>fill the Form & Make a Booking</h3>
+            </div>
+            <img src="img/baner2016.png" alt="img/baner2016.png" class="img-fluid">
+            <div class="row justify-content-around ml-1 my-3" >
+                <div class="col-12 col-sm-6">
+                    <fieldset class="border-f p-2">
+                        <legend class="w-auto">Your email address</legend>
+                        <input type="text" placeholder="e.john..smith@gmail.com" >
+                    </fieldset>
+                    
+                    <fieldset class="border-f p-2">
+                        <legend class="w-auto">Name</legend>
+                        <input type="text" name="" id="Name" placeholder="your name" >
+                    </fieldset>
+                    <fieldset class="border-f p-2">
+                        <legend class="w-auto">Telephone number</legend>
+                        <input type="text" name="" id="" placeholder="+372..." >
+                    </fieldset>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div >
+
+                        <fieldset class="border-f p-2">
+                            <legend class="w-auto">Notes
+    
+                            </legend>
+                            <textarea name="" id=""  rows="3"></textarea>
+                        </fieldset>
+                    </div>
+                    <br>
+                    <div>
+                        <span>No of guest</span>
+                        <input type="text"  placeholder="3" class="guest">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

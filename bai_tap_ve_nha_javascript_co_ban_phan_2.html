@@ -134,7 +134,7 @@
 			function kiemtra() {
 				let numbercheck = document.getElementById('sokiemtra');
 				let numbercheck1 = numbercheck.value * 1;
-				let i = numbercheck1 / 2 - 0.5;	// lấy mốc bằng 1 nữa bỏ phần thập phân của số check
+				let i = Math.sqrt(numbercheck1);	// lấy mốc bằng 1 nữa bỏ phần thập phân của số check
 				var flag =true;	// xác định là số nguyên tố hay là không bằng gán logic đúng hoặc sai vì else em thử thì nó chỉ dùng đc if k else được		
 				if (numbercheck1 < 2) {
 					flag =false;
