@@ -137,3 +137,100 @@ $('#check').submit(function () {
             event.preventDefault();
     }
 });
+$('#main').validate({
+    rules: {
+        email: {
+            required: true,
+            email: true,
+        },
+        name:{
+            required: true,
+            minlength: 3,
+        },
+        phone:{
+            required: true,
+            number: true,
+        },
+        guest:{
+            number:true,
+            required:true,
+        }
+    },
+    messages: {
+        email: {
+            required: 'phải nhập email',
+            email: 'chưa nhập đúng định dạng',
+        },
+        name:{
+            required: 'chưa nhập tên',
+            minlength: 'tên tối thiểu 3 ký tự',
+        },
+        phone:{
+            required: 'chưa nhập số điện thoại',
+            number: 'số điện thoại phải là số',
+        },
+        guest:{
+            number:'nhập số',
+            required:'chưa nhập',
+        }
+    }
+});
+$('#main').submit(function () {
+    event.preventDefault();
+    var result_6 = '';
+    var name6 = $('#name').val();
+    var email6 = $('#email').val();
+    var phone6 = $('#phone').val();
+    var notes6 = $('#notes').val();
+    var guest6 = $('#guest').val();
+    if($('#main').valid()){
+    result_6 += 'Your email address:' +email6
+    result_6 += '<br>name:' +name6
+    result_6 += '<br>Notes:' +notes6
+    result_6 += '<br>Telephone number:' +phone6
+    result_6 += '<br>No. of guests:' +guest6
+
+    }
+    $('#result_6').html(result_6);
+
+});
+$('#chatbox').submit(function(){
+    event.preventDefault();
+    function getCurrentDateTime() {
+        var currentdate = new Date();
+        var datetime = currentdate.getDate() + "/"
+            + (currentdate.getMonth()+1)  + "/"
+            + currentdate.getFullYear() + " "
+            + currentdate.getHours() + ":"
+            + currentdate.getMinutes();
+        return datetime;
+    }
+    var mainchatbox = $('#mainchatbox');
+    var inputtext = $('#input-text');
+    if (inputtext.val()){
+        var star = $('<i>').addClass('fa-sharp fa-solid fa-star-of-life');
+        
+        var content = $('<div>').addClass('content');
+        var messages = $('<div>').addClass('messages');
+        var avata = $('<div>').addClass('avata');
+        var infor = $('<div>').addClass('infor');
+        var name = $('<div>').addClass('name').text('php39');
+        var message = $('<div>').addClass('message').text(inputtext.val());
+        var timechat = $('<div>').addClass('time-chat');
+        var time = getCurrentDateTime();
+        var hr = $('<hr>').addClass('hr');
+        timechat.append(star);
+        timechat.append(time);
+        infor.append(name);
+        infor.append(message);
+        messages.append(avata);
+        messages.append(infor);
+        messages.append(timechat);
+        content.append(messages);
+        content.append(hr);
+        mainchatbox.append(content);
+        inputtext.val('');
+
+
+    }
+});
