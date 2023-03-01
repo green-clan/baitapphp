@@ -143,3 +143,15 @@ p {
 .message {
     word-wrap: break-word;
 }
+.show {
+    display: block;
+  }
+.listmenu {
+    display: none;
+  }
+
+  
+  
+  
+  
+  
