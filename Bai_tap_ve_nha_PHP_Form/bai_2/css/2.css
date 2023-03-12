@@ -1,0 +1,30 @@
+form {
+    width: 350px;
+    padding: 2px;
+    border: 2px solid black;
+}
+.header_form {
+    background-color: #95BEE6;
+    color: white;
+}
+td:nth-child(odd) {
+    text-align: right;
+    padding-right: 5px;
+}
+td:nth-child(even) {
+    padding-right: 5px;
+}
+td {
+    background-color: #A7D6F1;
+    color: white;
+}
+.text-center {
+    text-align: center;
+}
+.footer_form {
+    background-color: #95BEE6;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
